@@ -1,0 +1,15 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+/* Style the canvas to take the full width and height of the viewport */
+#canvas {
+    display: block;
+    width: 100vw; /* 100% viewport width */
+    height: 100vh; /* 100% viewport height */
+    background-color: #87CEEB; /* Set the background color */
+    image-rendering: pixelated; /* For a pixelated game look */
+}
